@@ -1,0 +1,1416 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/slick.css">
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/aos.css">
+	<link rel="stylesheet" href="css/jquery.fancybox.min.css">
+	<link rel="stylesheet" href="css/style.css">
+	<title>ready</title>
+</head>
+
+<body>
+	<header class="header">
+		<nav class="header__menu menu">
+			<ul class="menu__list">
+				<li class="menu__item"><a class="menu__link" href="#price">Тренировки</a></li>
+				<li class="menu__item"><a class="menu__link" href="#about">О нас</a></li>
+				<li class="menu__item"><a class="menu__link" href="#price">Расписание</a></li>
+				<li class="menu__item"><a class="menu__link" href="#price">Цены</a></li>
+				<li class="menu__item"><a class="menu__link" href="#footer">Контакты</a></li>
+			</ul>
+			<button class="menu__btn" href="#">Оставить заявку</button>
+		</nav>
+		<div class="header__logo">
+			<a class="logo__link" href="#intro"><img class="logo__img" src="image/logo.svg" alt="Логотип"></a>
+			<div class="header__burger--inner"><button class="header__burger" type="button"><span></span></button></div>
+		</div>
+	</header>
+	<div class="intro" id="intro">
+		<div class="video">
+			<video id="myVideo" class="video__media" autoplay muted loop src="video/Work.mp4">
+			</video>
+		</div>
+		<div class="intro__content">
+			<div class="container">
+				<h1 class="intro__title">
+					<span class="intro__title--red">Ready</span> - Лучшие спортзалы мира
+				</h1>
+				<p class="intro__text">
+					Все залы Ready открыты и работают с придерживанием карантинных методов безопасности.
+					Ждём вас на тренеровках!
+				</p>
+				<button class="intro__btn intro-btn-animate" type="button">Записаться на
+					тренировку</button>
+			</div>
+		</div>
+		<button class="audio__btn" type="button">
+			<img class="audio__btn--img" src="image/pngwing.com.png" alt="">
+		</button>
+	</div>
+	<section class="recording">
+		<div class="recording__cross">
+			<span class="recording__cross-item"></span>
+		</div>
+		<div class="recording__container">
+			<h2 class="recording__title">Запись на тренировку</h2>
+			<form class="recording__form">
+				<label class="recording__label">Имя</label>
+				<input class="recording__input" type="text" required placeholder="Введите своё имя">
+				<label class="recording__label">Телефон</label>
+				<input class="recording__input" type="tel" required placeholder="Введите свой телефон">
+				<label class="recording__label">Email</label>
+				<input class="recording__input" type="email" required placeholder="Введите свой email">
+				<button class="recording__btn">Оставить заявку</button>
+			</form>
+		</div>
+	</section>
+	<section class="opasity">
+		<div class="opasity__container">
+			<div class="opasity__inner">
+				<h2 class="opasity__title">+38(050)000-00-00</h2>
+				<ul class="opasity__list">
+					<li class="opasity__item">
+						<a class="opasity__link" href="#price">Груповые тренировки</a>
+					</li>
+					<li class="opasity__item">
+						<a class="opasity__link" href="#price">Персональные тренировки</a>
+					</li>
+					<li class="opasity__item">
+						<a class="opasity__link" href="#price">Комплексные програмы</a>
+					</li>
+					<li class="opasity__item">
+						<a class="opasity__link" href="#price">Корпоротивным клиентам</a>
+					</li>
+					<li class="opasity__item">
+						<a class="opasity__link" href="#price">Цены</a>
+					</li>
+					<li class="opasity__item">
+						<a class="opasity__link" href="#price">Расписание</a>
+					</li>
+					<li class="opasity__item">
+						<a class="opasity__link" href="#about">Про нас</a>
+					</li>
+					<li class="opasity__item">
+						<a class="opasity__link" href="#reviews">Истории клиентов</a>
+					</li>
+					<li class="opasity__item">
+						<a class="opasity__link" href="#footer">Контакты</a>
+					</li>
+				</ul>
+				<ul class="opasity__sub-list">
+					<li class="opasity__sub-item">
+						<a class="opasity__sub-link" href="#price">Акции</a>
+					</li>
+					<li class="opasity__sub-item">
+						<a class="opasity__sub-link" href="#about">Отзывы</a>
+					</li>
+					<li class="opasity__sub-item">
+						<a class="opasity__sub-link" href="#price">FAQ</a>
+					</li>
+					<li class="opasity__sub-item">
+						<a class="opasity__sub-link" href="#footer">Залы</a>
+					</li>
+					<li class="opasity__sub-item">
+						<a class="opasity__sub-link" href="#about">Блог</a>
+					</li>
+					<li class="opasity__sub-item">
+						<a class="opasity__sub-link" href="#about">Вакансии</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div class="recording">
+			<div class="recording__container">
+				<h2 class="recording__title">Запись на тренировку</h2>
+				<form class="recording__form">
+					<label class="recording__label">Имя</label>
+					<input class="recording__input" type="text" required placeholder="Введите своё имя">
+					<label class="recording__label">Телефон</label>
+					<input class="recording__input" type="tel" required placeholder="Введите свой телефон">
+					<label class="recording__label">Email</label>
+					<input class="recording__input" type="email" required placeholder="Введите свой email">
+					<button class="recording__btn">Оставить заявку</button>
+				</form>
+			</div>
+		</div>
+	</section>
+	<section class="notice">
+		<div class="notice__inner">
+			<div class="notice__item" data-aos="fade-right" data-aos-delay="100" data-aos-easing="linear"
+				data-aos-duration="300">
+				<a class="notice__link" href="#price">
+					<img class="notice__image" src="image/2/groop.jpg" alt="">
+					<span class="notice__title">Груповые тренировки</span>
+				</a>
+			</div>
+			<div class="notice__item" data-aos="fade-down" data-aos-delay="500" data-aos-easing="linear"
+				data-aos-duration="300">
+				<a class="notice__link" href="#price">
+					<img class="notice__image" src="image/2/solo.jpg" alt="">
+					<span class="notice__title">Персональные тренировки</span>
+				</a>
+			</div>
+			<div class="notice__item" data-aos="fade-up" data-aos-delay="1000" data-aos-easing="linear"
+				data-aos-duration="300">
+				<a class="notice__link" href="#price">
+					<img class="notice__image" src="image/2/fat.jpg" alt="">
+					<span class="notice__title">Программа похудения</span>
+				</a>
+			</div>
+		</div>
+		<div class="notice__video" data-aos="fade-up" data-aos-delay="300" data-aos-easing="linear"
+			data-aos-duration="500">
+			<a class="notice__video-link" data-fancybox href="https://www.youtube.com/watch?v=WCSTvik3F1c"></a>
+			<div class="notice__video--inner">
+
+				<h2 class="notice__video-title" data-aos="fade-right" data-aos-delay="600" data-aos-easing="linear"
+					anchorPlacement: "bottom-bottom" data-aos-duration="300">Не заметишь, как заметишь результат!!!</h2>
+				<span class="notice__video-text" data-aos="fade-right" data-aos-delay="800" data-aos-easing="linear"
+					anchorPlacement: "bottom-bottom" data-aos-duration="300">Достигайте своих целей, получая удовольствие от
+					тренировок!</span>
+				<button class="intro__btn" data-aos="fade-right" data-aos-delay="1100" data-aos-easing="linear"
+					anchorPlacement: "bottom-bottom" data-aos-duration="300" type="button">Записаться на
+					тренировку</button>
+
+			</div>
+		</div>
+	</section>
+	<section class="hot-offers" id="hot-offers">
+		<h2 class="hot-offers__title" data-aos="fade-right" data-aos-delay="100" data-aos-easing="linear"
+			data-aos-duration="300"><span>Горячие</span> предложения</h2>
+		<div class="hot-offers__inner" data-aos="fade-right" data-aos-delay="300" data-aos-easing="linear"
+			data-aos-duration="500">
+			<div class="hot-offers__item">
+				<a class="hot-offers__link" href="#">
+					<div class="hot-offers__link-image">
+						<img class="hot-offers__link-img" src="image/3/open.jpg" alt="">
+					</div>
+				</a>
+				<span class="hot-offers__number">01</span>
+				<a class="hot-offers__link-text" href="#">
+					<p class="hot-offers__text">50% до открытия на киевской </p>
+				</a>
+			</div>
+			<div class="hot-offers__item">
+				<a class="hot-offers__link" href="#">
+					<div class="hot-offers__link-image">
+						<img class="hot-offers__link-img" src="image/3/groop.jpg" alt="">
+					</div>
+				</a>
+				<span class="hot-offers__number">02</span>
+				<a class="hot-offers__link-text" href="#">
+					<p class="hot-offers__text">50% на пробную групповую</p>
+				</a>
+			</div>
+			<div class="hot-offers__item">
+				<a class="hot-offers__link" href="#">
+					<div class="hot-offers__link-image">
+						<img class="hot-offers__link-img" src="image/3/personal.jpg" alt="">
+					</div>
+				</a>
+				<span class="hot-offers__number">03</span>
+				<a class="hot-offers__link-text" href="#">
+					<p class="hot-offers__text">50% на пробную персональную</p>
+				</a>
+			</div>
+			<div class="hot-offers__item">
+				<a class="hot-offers__link" href="#">
+					<div class="hot-offers__link-image">
+						<img class="hot-offers__link-img" src="image/3/in-day.jpg" alt="">
+					</div>
+				</a>
+				<span class="hot-offers__number">04</span>
+				<a class="hot-offers__link-text" href="#">
+					<p class="hot-offers__text">Скидка до 25% в день пробной</p>
+				</a>
+			</div>
+			<div class="hot-offers__item">
+				<a class="hot-offers__link" href="#">
+					<div class="hot-offers__link-image">
+						<img class="hot-offers__link-img" src="image/3/strong.jpg" alt="">
+					</div>
+				</a>
+				<span class="hot-offers__number">05</span>
+				<a class="hot-offers__link-text" href="#">
+					<p class="hot-offers__text">Скидка до 25% на продление</p>
+				</a>
+			</div>
+			<div class="hot-offers__item">
+				<a class="hot-offers__link" href="#">
+					<div class="hot-offers__link-image">
+						<img class="hot-offers__link-img" src="image/3/subscription.jpg" alt="">
+					</div>
+				</a>
+				<span class="hot-offers__number">06</span>
+				<a class="hot-offers__link-text" href="#">
+					<p class="hot-offers__text">Абонимент в расрочку</p>
+				</a>
+			</div>
+			<div class="hot-offers__item">
+				<a class="hot-offers__link" href="#">
+					<div class="hot-offers__link-image">
+						<img class="hot-offers__link-img" src="image/3/frends.jpg" alt="">
+					</div>
+				</a>
+				<span class="hot-offers__number">07</span>
+				<a class="hot-offers__link-text" href="#">
+					<p class="hot-offers__text">Тренироваться с друзьями</p>
+				</a>
+			</div>
+		</div>
+	</section>
+	<section class="about" id="about">
+		<div class="about__inner">
+			<div class="about__top">
+				<h2 class="about__title" data-aos="zoom-in-down" data-aos-delay="1400" data-aos-duration="500"
+					data-aos-duration="600">
+					<span class="intro__title--red">Кое-что важное про </span>Ready</h2>
+				<button class="intro__btn" data-aos="fade-up" data-aos-delay="1800" data-aos-easing="linear"
+					data-aos-anchor-placement="bottom-bottom" data-aos-duration="300" type="button">Записаться на
+					тренировку</button>
+			</div>
+			<ul class="about__list">
+				<li class="about__item" data-aos="zoom-in">
+					<h3 class="about__item--title about-title--triger1">ТРЕНИРОВКИ С УДОВОЛЬСТВИЕМ</h3>
+					<p class="about__item--text">
+						Мы верим в фитнес и в то, что на тренировку нужно приходить с удовольствием, а выходить с результатом.
+						А те, кто говорят, что результаты приходят через боль и слезы, просто не занимались с нами. Мы за то,
+						чтобы кайфовать от процесса и результата.
+					</p>
+				</li>
+				<li class="about__item" data-aos="zoom-in" data-aos-delay="200" data-aos-duration="500">
+					<h3 class="about__item--title about-title--triger2">БЕЗ ЛИШНЕГО — ЛУЧШЕ</h3>
+					<p class="about__item--text">
+						Лучше, когда тренировка длится недолго, но успеваешь сделать много. Лучше,
+						когда в студии вас немного, но тренер следит за каждым. Лучше, когда лишние килограммы и вялость
+						исчезают. Появляется энергия на то, на что раньше не хватало ни сил, ни желания. Вы становитесь
+						стройнее, а жизнь — полнее.
+
+					</p>
+				</li>
+				<li class="about__item" data-aos="zoom-in" data-aos-delay="400" data-aos-duration="500">
+					<h3 class="about__item--title about-title--triger3">45 МИНУТ КОНЦЕНТРИРОВАННОЙ </h3>
+					<p class="about__item--text">
+						Столько длятся наши тренировки. Без лишних затрат вашего времени. Каждое
+						занятие проводит тренер. Поэтому каждую секунду вы знаете, что делать, как делать и в каком темпе. Мы
+						создали более 20 видов занятий, чтобы вам не надоедало к нам приходить, и чтобы вы могли решить любую
+						задачу.
+					</p>
+				</li>
+				<li class="about__item" data-aos="zoom-in" data-aos-delay="600" data-aos-duration="500">
+					<h3 class="about__item--title about-title--triger4">ЗДОРОВЬЕ И БЕЗОПАСНОСТЬ</h3>
+					<p class="about__item--text">
+						Эти два слова играют для нас большую роль. Ваши движения заранее продуманы
+						до секунды. Ваша техника всегда под контролем тренера. Мы наблюдаем за вашим пульсом на
+						кардиотренировках с помощью датчиков MyZone. Проводим фитнес-тестирование. Придерживаемся рекомендаций
+						МОЗ на период карантина.
+					</p>
+				</li>
+			</ul>
+
+		</div>
+	</section>
+	<section class="reviews" id="reviews">
+		<h2 class="reviews__title" data-aos="fade-right" data-aos-delay="200" data-aos-easing="linear"
+			data-aos-duration="400"><span>Отзывы </span>клиентов</h2>
+		<ul class="reviews__inner" data-aos="fade-right" data-aos-delay="500" data-aos-easing="linear"
+			data-aos-anchor-placement="bottom-bottom" data-aos-duration="400">
+			<li class="reviews__item">
+				<div class="reviews__imges">
+					<img class="reviews__img" src="image/reviews/1.jpg" alt="Видео отзыв">
+				</div>
+				<a class="reviews__link" data-fancybox href="https://www.youtube.com/watch?v=RZqZ4Xml-0o">
+					<div class="reviews__link-inner">
+						<div class="reviews__link-video">
+						</div>
+					</div>
+				</a>
+			</li>
+			<li class="reviews__item">
+				<div class="reviews__imges">
+					<img class="reviews__img" src="image/reviews/2.jpg" alt="Видео отзыв">
+				</div>
+				<a class="reviews__link" data-fancybox href="https://www.youtube.com/watch?v=bnzHECC0Z8A">
+					<div class="reviews__link-inner">
+						<div class="reviews__link-video">
+						</div>
+					</div>
+				</a>
+			</li>
+			<li class="reviews__item">
+				<div class="reviews__imges">
+					<img class="reviews__img" src="image/reviews/3.jpg" alt="Видео отзыв">
+				</div>
+				<a class="reviews__link" data-fancybox href="https://www.youtube.com/watch?v=uVyQDRrp9z8">
+					<div class="reviews__link-inner">
+						<div class="reviews__link-video">
+						</div>
+					</div>
+				</a>
+			</li>
+			<li class="reviews__item">
+				<div class="reviews__imges">
+					<img class="reviews__img" src="image/reviews/4.jpg" alt="Видео отзыв">
+				</div>
+				<a class="reviews__link" data-fancybox href="https://www.youtube.com/watch?v=zT4NJC5fzWg">
+					<div class="reviews__link-inner">
+						<div class="reviews__link-video">
+						</div>
+					</div>
+				</a>
+			</li>
+			<li class="reviews__item">
+				<div class="reviews__imges">
+					<img class="reviews__img" src="image/reviews/5.jpg" alt="Видео отзыв">
+				</div>
+				<a class="reviews__link" data-fancybox href="https://www.youtube.com/watch?v=QLbFX6WtIqw">
+					<div class="reviews__link-inner">
+						<div class="reviews__link-video">
+						</div>
+					</div>
+				</a>
+			</li>
+			<li class="reviews__item">
+				<div class="reviews__imges">
+					<img class="reviews__img" src="image/reviews/6.jpg" alt="Видео отзыв">
+				</div>
+				<a class="reviews__link" data-fancybox href="https://www.youtube.com/watch?v=n-93Yyla-GE">
+					<div class="reviews__link-inner">
+						<div class="reviews__link-video">
+						</div>
+					</div>
+				</a>
+			</li>
+		</ul>
+	</section>
+	<section class="price" id="price">
+		<div class="price__top">
+			<h2 class="price__title" data-aos="fade-right" data-aos-delay="0" data-aos-easing="linear"
+				data-aos-anchor-placement="bottom-bottom" data-aos-duration="400">Стоимость абонементов</h2>
+			<button class="intro__btn" data-aos="fade-right" data-aos-delay="400" data-aos-easing="linear"
+				data-aos-anchor-placement="bottom-bottom" data-aos-duration="400" type="button">Записаться на
+				тренировку</button>
+		</div>
+		<div class="price__content">
+			<nav class="price__nav" data-aos="fade-right" data-aos-delay="200" data-aos-easing="linear"
+				data-aos-anchor-placement="bottom-bottom" data-aos-duration="400">
+				<button class="price__nav-btn price__nav-btn1 active" type="button">online</button>
+				<button class="price__nav-btn price__nav-btn2" type="button">пробная</button>
+				<button class="price__nav-btn price__nav-btn3" type="button">безлимит</button>
+				<button class="price__nav-btn price__nav-btn4" type="button">утро+день</button>
+				<button class="price__nav-btn price__nav-btn5" type="button">сетевые</button>
+				<button class="price__nav-btn price__nav-btn6" type="button">разовые</button>
+				<button class="price__nav-btn price__nav-btn7" type="button">похудения</button>
+				<button class="price__nav-btn price__nav-btn8" type="button">персональные</button>
+			</nav>
+			<div class="price__content-online active price__content-padding">
+				<h3 class="price__content-title"><span class="price__content-title--red">Online </span>тренировки</h3>
+				<p class="price__content-text">
+					На период локдауна Ready переходит в онлайн! Ждем вас на наших прямых эфирах в Zoom! Также приглашаем
+					присоединиться к нашим популярных фитнес-челленджам онлайн!
+				</p>
+				<div class="price__content-carts">
+					<div class="price__content-cart cart">
+						<div class="cart__top">
+							<h4 class="cart__title">1 ГРУППОВАЯ ОНЛАЙН-ТРЕНИРОВКА</h4>
+							<span class="cart__price">90 грн</span>
+						</div>
+						<div class="cart__content">
+							<a class="cart__deck-link" href="#">
+								Групповые онлайн-тренировки через Zoom
+							</a>
+							<ul class="cart__list">
+								<li class="cart__item">
+									1 групповая онлайн-тренировка в Zoom
+								</li>
+								<li class="cart__item">
+									Контроль и поддержка тренера в прямом эфире
+								</li>
+							</ul>
+						</div>
+						<button class="price__btn" type="button">
+							Оставить заявку
+						</button>
+						<button class="price__btn-buy" type="button">
+							Оплатить онлайн
+						</button>
+					</div>
+					<div class="price__content-cart cart">
+						<div class="cart__top">
+							<h4 class="cart__title">5 ГРУППОВЫХ ОНЛАЙН-ТРЕНИРОВКОК</h4>
+							<span class="cart__price">350 грн</span>
+						</div>
+						<div class="cart__content">
+							<a class="cart__deck-link" href="#">
+								Групповые онлайн-тренировки через Zoom
+							</a>
+							<ul class="cart__list">
+								<li class="cart__item">
+									5 групповых онлайн-тренировкок в Zoom
+								</li>
+								<li class="cart__item">
+									Контроль и поддержка тренера в прямом эфире
+								</li>
+							</ul>
+						</div>
+						<button class="price__btn" type="button">
+							Оставить заявку
+						</button>
+						<button class="price__btn-buy" type="button">
+							Оплатить онлайн
+						</button>
+					</div>
+					<div class="price__content-cart cart">
+						<div class="cart__top">
+							<h4 class="cart__title">ОНЛАЙН-ЧЕЛЛЕНЖДИ</h4>
+							<span class="cart__price">590 грн</span>
+						</div>
+						<div class="cart__content">
+							<a class="cart__deck-link" href="#">
+								Онлайн-челленджи «Попа Класс» и «Radi Body»
+							</a>
+							<ul class="cart__list">
+								<li class="cart__item">
+									1 групповая онлайн-тренировка в Zoom
+								</li>
+								<li class="cart__item">
+									Контроль и поддержка тренера в прямом эфире
+								</li>
+								<li class="cart__item">
+									Поддержка и мотивация тренера
+								</li>
+								<li class="cart__item">
+									Рекомендации по питанию
+								</li>
+								<li class="cart__item">
+									Доступ к оналйн-тренировкам в прямом эфире
+								</li>
+							</ul>
+						</div>
+						<button class="price__btn" type="button">
+							Оставить заявку
+						</button>
+						<button class="price__btn-buy" type="button">
+							Оплатить онлайн
+						</button>
+					</div>
+				</div>
+			</div>
+			<div class="price__content-trial  price__content-padding">
+				<h3 class="price__content-title">
+					<span class="price__content-title--red">Пробная </span>тренировка</h3>
+				<p class="price__content-text">
+					Не попробуешь — не узнаешь 😉
+				</p>
+				<p class="price__content-text">
+					Иногда достаточно сделать маленький шаг в правильном направлении, чтобы начать большие перемены в своей
+					жизни. Наши клиенты признаются, что жалели после первой тренировки только об одном — что не сделали этот
+					шаг раньше.
+				</p>
+				<p class="price__content-text price__content-text--black">
+					Попробуйте любую тренировку сейчас по суперцене! Оплачивайте онлайн и получите скидку 50%!
+				</p>
+
+				<div class="price__content-carts">
+					<div class="price__content-cart cart">
+						<div class="cart__top">
+							<h4 class="cart__title">ГРУППОВАЯ ТРЕНИРОВКА</h4>
+							<span class="cart__price cart__price--discount">150 грн
+								<span class="cart__price">75 грн</span>
+							</span>
+						</div>
+						<div class="cart__content">
+							<div class="cart__deck-discount">
+								<p class="cart__deck-discount--text">
+									Скидка 50% при условии оплаты на сайте.
+								</p>
+							</div>
+							<ul class="cart__list">
+								<li class="cart__item">
+									1 пробная групповая тренировка в любой студии
+								</li>
+								<li class="cart__item">
+									бутылка воды в подарок
+								</li>
+							</ul>
+						</div>
+						<button class="price__btn" type="button">
+							Оставить заявку
+						</button>
+						<button class="price__btn-buy" type="button">
+							Оплатить онлайн
+						</button>
+					</div>
+					<div class="price__content-cart cart">
+						<div class="cart__top">
+							<h4 class="cart__title">ПЕРСОНАЛЬНАЯ ТРЕНИРОВКА</h4>
+							<span class="cart__price cart__price--discount">550 грн
+								<span class="cart__price">275 грн</span>
+							</span>
+						</div>
+						<div class="cart__content">
+							<div class="cart__deck-discount">
+								<p class="cart__deck-discount--text">
+									Скидка 50% при условии оплаты на сайте.
+								</p>
+							</div>
+							<ul class="cart__list">
+								<li class="cart__item">
+									1 пробная персональная тренировка в любой студии
+								</li>
+								<li class="cart__item">
+									1 бутылка воды в подарок
+								</li>
+							</ul>
+						</div>
+						<button class="price__btn" type="button">
+							Оставить заявку
+						</button>
+						<button class="price__btn-buy" type="button">
+							Оплатить онлайн
+						</button>
+					</div>
+					<div class="price__content-cart cart">
+						<div class="cart__top">
+							<h4 class="cart__title">ФИТНЕС-ТЕСТИРОВАНИЕ</h4>
+							<span class="cart__price">300 грн</span>
+						</div>
+						<div class="cart__content">
+							<a class="cart__deck-link" href="#">Детальнее о фитнес-тестировании</a>
+							<ul class="cart__list">
+								<li class="cart__item">
+									Персональный тренер
+								</li>
+								<li class="cart__item">
+									Замеры состава тела на весах Tanita
+								</li>
+								<li class="cart__item">
+									Диагностика физического состояния
+								</li>
+								<li class="cart__item">
+									Анкетирование
+								</li>
+								<li class="cart__item">
+									Рекомендации по тренировкам и образу жизни
+								</li>
+							</ul>
+						</div>
+						<button class="price__btn" type="button">
+							Оставить заявку
+						</button>
+						<button class="price__btn-buy" type="button">
+							Оплатить онлайн
+						</button>
+					</div>
+				</div>
+			</div>
+			<div class="price__content-unlimited  price__content-padding">
+				<h3 class="price__content-title">
+					<span class="price__content-title--red">Безлимит </span>студийный</h3>
+				<p class="price__content-text">
+					Безлимитный абонемент дает возможность посещать любые тренировки согласно расписанию в неограниченном
+					количестве. Идеальный вариант, если вы решили заниматься регулярно. Чем дольше продолжительность
+					абонемента, чем дешевле цена за месяц.
+				</p>
+				<div class="price__content-carts">
+					<div class="price__content-cart cart">
+						<div class="cart__top">
+							<h4 class="cart__title">1 ПРОБНЫЙ МЕСЯЦ</h4>
+							<span class="cart__price">2900 ГРН</span>
+						</div>
+						<div class="cart__content">
+							<div class="cart__deck-discount">
+								<p class="cart__deck-discount--text">
+									При приобретении карты в день пробного занятия — неделя тренировок в подарок!
+								</p>
+							</div>
+							<p class="cart__deck-discount--text2">В течении пробного месяца вы сможете познакомиться со всеми
+								нашими тренировками и всеми студиями
+								сети Ready.
+							</p>
+							<ul class="cart__list">
+								<li class="cart__item">
+									безлимит на групповые в одной студии
+								</li>
+								<li class="cart__item">
+									гостевые визиты по сети (1 студия - 1 визит)
+								</li>
+								<li class="cart__item">
+									вводная тренировка
+								</li>
+							</ul>
+						</div>
+						<button class="price__btn" type="button">
+							Оставить заявку
+						</button>
+						<button class="price__btn-buy" type="button">
+							Оплатить онлайн
+						</button>
+					</div>
+					<div class="price__content-cart cart">
+						<div class="cart__top">
+							<h4 class="cart__title">3 МЕСЯЦА</h4>
+							<span class="cart__price cart__price--discount">8900 грн
+								<span class="cart__price">7565 грн</span>
+							</span>
+						</div>
+						<div class="cart__content">
+							<div class="cart__deck-discount">
+								<p class="cart__deck-discount--text">
+									Скидка в день пробной тренировки!
+								</p>
+							</div>
+							<ul class="cart__list">
+								<li class="cart__item">
+									безлимит на групповые
+								</li>
+								<li class="cart__item">
+									вводная тренировка
+								</li>
+								<li class="cart__item">
+									фитнес-тестирование
+								</li>
+								<li class="cart__item">
+									2 недели заморозки
+								</li>
+							</ul>
+						</div>
+						<button class="price__btn" type="button">
+							Оставить заявку
+						</button>
+						<button class="price__btn-buy" type="button">
+							Оплатить онлайн
+						</button>
+					</div>
+					<div class="price__content-cart cart">
+						<div class="cart__top">
+							<h4 class="cart__title">6 МЕСЯЦЕВ</h4>
+							<span class="cart__price cart__price--discount">13 900 грн
+								<span class="cart__price">11 120 грн</span>
+							</span>
+						</div>
+						<div class="cart__content">
+							<div class="cart__deck-discount">
+								<p class="cart__deck-discount--text">
+									Скидка в день пробной тренировки!
+								</p>
+							</div>
+							<ul class="cart__list">
+								<li class="cart__item">
+									безлимит на групповые
+								</li>
+								<li class="cart__item">
+									вводная тренировка
+								</li>
+								<li class="cart__item">
+									фитнес-тестирование
+								</li>
+								<li class="cart__item">
+									1 месяц заморозки
+								</li>
+							</ul>
+						</div>
+						<button class="price__btn" type="button">
+							Оставить заявку
+						</button>
+						<button class="price__btn-buy" type="button">
+							Оплатить онлайн
+						</button>
+					</div>
+					<div class="price__content-cart cart">
+						<div class="cart__top">
+							<h4 class="cart__title">12 МЕСЯЦЕВ</h4>
+							<span class="cart__price cart__price--discount">19 900 грн
+								<span class="cart__price">14 925 грн</span>
+							</span>
+						</div>
+						<div class="cart__content">
+							<div class="cart__deck-discount">
+								<p class="cart__deck-discount--text">
+									Скидка в день пробной тренировки!
+								</p>
+							</div>
+							<ul class="cart__list">
+								<li class="cart__item">
+									безлимит на групповые
+								</li>
+								<li class="cart__item">
+									вводная тренировка
+								</li>
+								<li class="cart__item">
+									фитнес-тестирование
+								</li>
+								<li class="cart__item">
+									2 месяц заморозки
+								</li>
+							</ul>
+						</div>
+						<button class="price__btn" type="button">
+							Оставить заявку
+						</button>
+						<button class="price__btn-buy" type="button">
+							Оплатить онлайн
+						</button>
+					</div>
+				</div>
+			</div>
+			<div class="price__content-morning  price__content-padding">
+				<h3 class="price__content-title">
+					<span class="price__content-title--red">Утро + День </span>студийная</h3>
+				<p class="price__content-text">
+					Карта «Утро+День» позволяет посещать групповые тренировки утром и в обед:
+				</p>
+				<p class="price__content-text">
+					- Печерск, Подол, Ультрамарин, Малевича, Лукьяновка, Левобережная: в период с 09:15 до 16:00 по будням и
+					на протяжении всего дня по выходным.
+				</p>
+				<p class="price__content-text">
+					- Берестейская и Теремки: в период с 07:15 до 16:00 по будням и на протяжении всего дня по выходным.
+				</p>
+				<div class="price__content-carts">
+					<div class="price__content-cart cart">
+						<div class="cart__top">
+							<h4 class="cart__title">6 МЕСЯЦЕВ</h4>
+							<span class="cart__price cart__price--discount">11 900 грн
+								<span class="cart__price">9 520 грн</span>
+							</span>
+						</div>
+						<div class="cart__content">
+							<div class="cart__deck-discount">
+								<p class="cart__deck-discount--text">
+									Скидка в день пробной тренировки!
+								</p>
+							</div>
+							<ul class="cart__list">
+								<li class="cart__item">
+									безлимит на групповые
+								</li>
+								<li class="cart__item">
+									вводная тренировка
+								</li>
+								<li class="cart__item">
+									фитнес-тестирование
+								</li>
+								<li class="cart__item">
+									1 месяц заморозки
+								</li>
+							</ul>
+						</div>
+						<button class="price__btn" type="button">
+							Оставить заявку
+						</button>
+						<button class="price__btn-buy" type="button">
+							Оплатить онлайн
+						</button>
+					</div>
+					<div class="price__content-cart cart">
+						<div class="cart__top">
+							<h4 class="cart__title">12 МЕСЯЦЕВ</h4>
+							<span class="cart__price cart__price--discount">17 900 грн
+								<span class="cart__price">13 425 грн</span>
+							</span>
+						</div>
+						<div class="cart__content">
+							<div class="cart__deck-discount">
+								<p class="cart__deck-discount--text">
+									Скидка в день пробной тренировки!
+								</p>
+							</div>
+							<ul class="cart__list">
+								<li class="cart__item">
+									безлимит на групповые
+								</li>
+								<li class="cart__item">
+									вводная тренировка
+								</li>
+								<li class="cart__item">
+									фитнес-тестирование
+								</li>
+								<li class="cart__item">
+									2 месяца заморозки
+								</li>
+							</ul>
+						</div>
+						<button class="price__btn" type="button">
+							Оставить заявку
+						</button>
+						<button class="price__btn-buy" type="button">
+							Оплатить онлайн
+						</button>
+					</div>
+
+				</div>
+			</div>
+			<div class="price__content-network  price__content-padding">
+				<h3 class="price__content-title">
+					<span class="price__content-title--red">Безлимит </span>сетевой</h3>
+				<p class="price__content-text">
+					Карта «СЕТЕВОЙ БЕЗЛИМИТ» позволяет посещать все групповые тренировки во всех студиях сети Ready.
+				</p>
+				<div class="price__content-carts">
+					<div class="price__content-cart cart">
+						<div class="cart__top">
+							<h4 class="cart__title">6 МЕСЯЦЕВ</h4>
+							<span class="cart__price cart__price--discount">14 900 грн
+								<span class="cart__price">11 920 грн</span>
+							</span>
+						</div>
+						<div class="cart__content">
+							<div class="cart__deck-discount">
+								<p class="cart__deck-discount--text">
+									Скидка в день пробной тренировки!
+								</p>
+							</div>
+							<ul class="cart__list">
+								<li class="cart__item">
+									безлимит на групповые
+								</li>
+								<li class="cart__item">
+									вводная тренировка
+								</li>
+								<li class="cart__item">
+									фитнес-тестирование
+								</li>
+								<li class="cart__item">
+									1 месяц заморозки
+								</li>
+							</ul>
+						</div>
+						<button class="price__btn" type="button">
+							Оставить заявку
+						</button>
+						<button class="price__btn-buy" type="button">
+							Оплатить онлайн
+						</button>
+					</div>
+					<div class="price__content-cart cart">
+						<div class="cart__top">
+							<h4 class="cart__title">12 МЕСЯЦЕВ</h4>
+							<span class="cart__price cart__price--discount">21 900 грн
+								<span class="cart__price">16 425 грн</span>
+							</span>
+						</div>
+						<div class="cart__content">
+							<div class="cart__deck-discount">
+								<p class="cart__deck-discount--text">
+									Скидка в день пробной тренировки!
+								</p>
+							</div>
+							<ul class="cart__list">
+								<li class="cart__item">
+									безлимит на групповые
+								</li>
+								<li class="cart__item">
+									вводная тренировка
+								</li>
+								<li class="cart__item">
+									фитнес-тестирование
+								</li>
+								<li class="cart__item">
+									2 месяца заморозки
+								</li>
+							</ul>
+						</div>
+						<button class="price__btn" type="button">
+							Оставить заявку
+						</button>
+						<button class="price__btn-buy" type="button">
+							Оплатить онлайн
+						</button>
+					</div>
+				</div>
+			</div>
+			<div class="price__content-one  price__content-padding">
+				<h3 class="price__content-title">
+					<span class="price__content-title--red">Разовые </span>тренировки</h3>
+				<p class="price__content-text">
+					Такой тип абонемента предусматривает посещение занятий по количеству. Вы можете тренироваться в любое
+					время, в любой из студий Ready. Подходит для тех, кто не уверен, что сможет посещать тренировки
+					регулярно.
+				</p>
+				<div class="price__content-carts">
+					<div class="price__content-cart cart">
+						<div class="cart__top">
+							<h4 class="cart__title">ПРОБНАЯ ТРЕНИРОВКА</h4>
+							<span class="cart__price cart__price--discount">150 грн
+								<span class="cart__price">75 грн</span>
+							</span>
+						</div>
+						<div class="cart__content">
+							<div class="cart__deck-discount">
+								<p class="cart__deck-discount--text">
+									Оплачивайте до 14.03.2022г. - получайте скидку 50%!
+								</p>
+							</div>
+						</div>
+						<button class="price__btn" type="button">
+							Оставить заявку
+						</button>
+						<button class="price__btn-buy" type="button">
+							Оплатить онлайн
+						</button>
+					</div>
+					<div class="price__content-cart cart">
+						<div class="cart__top">
+							<h4 class="cart__title">РАЗОВАЯ ТРЕНИРОВКА</h4>
+							<span class="cart__price">350 грн</span>
+						</div>
+						<div class="cart__content">
+							<ul class="cart__list">
+								<li class="cart__item">
+									Разовый визит в студию на любую тренировку.
+								</li>
+							</ul>
+						</div>
+						<button class="price__btn" type="button">
+							Оставить заявку
+						</button>
+						<button class="price__btn-buy" type="button">
+							Оплатить онлайн
+						</button>
+					</div>
+					<div class="price__content-cart cart">
+						<div class="cart__top">
+							<h4 class="cart__title">5 ТРЕНИРОВОК</h4>
+							<span class="cart__price cart__price--discount">1 500 грн
+								<span class="cart__price">1 425 грн</span>
+							</span>
+						</div>
+						<div class="cart__content">
+							<div class="cart__deck-discount">
+								<p class="cart__deck-discount--text">
+									Скидка в день пробной тренировки!
+								</p>
+							</div>
+							<ul class="cart__list">
+								<li class="cart__item">
+									Срок действия пакета — 6 месяцев.
+								</li>
+							</ul>
+						</div>
+						<button class="price__btn" type="button">
+							Оставить заявку
+						</button>
+						<button class="price__btn-buy" type="button">
+							Оплатить онлайн
+						</button>
+					</div>
+					<div class="price__content-cart cart">
+						<div class="cart__top">
+							<h4 class="cart__title">10 ТРЕНИРОВОК</h4>
+							<span class="cart__price cart__price--discount">2 750 грн
+								<span class="cart__price">2 613 грн</span>
+							</span>
+						</div>
+						<div class="cart__content">
+							<div class="cart__deck-discount">
+								<p class="cart__deck-discount--text">
+									Скидка в день пробной тренировки!
+								</p>
+							</div>
+							<ul class="cart__list">
+								<li class="cart__item">
+									Срок действия пакета — 6 месяцев.
+								</li>
+							</ul>
+						</div>
+						<button class="price__btn" type="button">
+							Оставить заявку
+						</button>
+						<button class="price__btn-buy" type="button">
+							Оплатить онлайн
+						</button>
+					</div>
+					<div class="price__content-cart cart">
+						<div class="cart__top">
+							<h4 class="cart__title">20 ТРЕНИРОВОК</h4>
+							<span class="cart__price cart__price--discount">5 000 грн
+								<span class="cart__price">4 500 грн</span>
+							</span>
+						</div>
+						<div class="cart__content">
+							<div class="cart__deck-discount">
+								<p class="cart__deck-discount--text">
+									Скидка в день пробной тренировки!
+								</p>
+							</div>
+							<ul class="cart__list">
+								<li class="cart__item">
+									Срок действия пакета — 6 месяцев.
+								</li>
+							</ul>
+						</div>
+						<button class="price__btn" type="button">
+							Оставить заявку
+						</button>
+						<button class="price__btn-buy" type="button">
+							Оплатить онлайн
+						</button>
+					</div>
+				</div>
+			</div>
+			<div class="price__content-slimming  price__content-padding">
+				<h3 class="price__content-title">
+					<span class="price__content-title--red">Программа </span>похудения</h3>
+				<p class="price__content-text">
+					Программа похудения «Readовое тело». Вместе с тренером к телу вашей мечты!
+				</p>
+				<div class="price__content-carts">
+					<div class="price__content-cart cart">
+						<div class="cart__top">
+							<h4 class="cart__title">7 НЕДЕЛЬ</h4>
+							<span class="cart__price">5 900 грн</span>
+						</div>
+						<div class="cart__content">
+							<div class="cart__deck-discount">
+								<p class="cart__deck-discount--text">
+									Индивидуальная программа похудения без диет и изнуряющих тренировок
+								</p>
+							</div>
+							<ul class="cart__list">
+								<li class="cart__item">
+									фитнес-тестирование
+								</li>
+								<li class="cart__item">
+									безлимит на групповые
+								</li>
+								<li class="cart__item">
+									3 персональные тренировки
+								</li>
+								<li class="cart__item">
+									контроль питания
+								</li>
+							</ul>
+						</div>
+						<button class="price__btn" type="button">
+							Оставить заявку
+						</button>
+						<button class="price__btn-buy" type="button">
+							Оплатить онлайн
+						</button>
+					</div>
+					<div class="price__content-cart cart">
+						<div class="cart__top">
+							<h4 class="cart__title">11 НЕДЕЛЬ</h4>
+							<span class="cart__price">8 900 грн</span>
+						</div>
+						<div class="cart__content">
+							<div class="cart__deck-discount">
+								<p class="cart__deck-discount--text">
+									Индивидуальная программа похудения без диет и изнуряющих тренировок.
+								</p>
+							</div>
+							<ul class="cart__list">
+								<li class="cart__item">
+									фитнес-тестирование
+								</li>
+								<li class="cart__item">
+									сопровождение тренера
+								</li>
+								<li class="cart__item">
+									безлимит на групповые тренировки
+								</li>
+								<li class="cart__item">
+									5 персональных тренировок
+								</li>
+								<li class="cart__item">
+									контроль питания
+								</li>
+								<li class="cart__item">
+									датчик MyZone
+								</li>
+							</ul>
+						</div>
+						<button class="price__btn" type="button">
+							Оставить заявку
+						</button>
+						<button class="price__btn-buy" type="button">
+							Оплатить онлайн
+						</button>
+					</div>
+				</div>
+			</div>
+			<div class="price__content-personal  price__content-padding">
+				<h3 class="price__content-title">
+					<span class="price__content-title--red">Персональные </span>тренировки</h3>
+				<p class="price__content-text">
+					Попробуйте персональные тренировки по специальной ПРОМО цене!
+				</p>
+				<p class="price__content-text">
+					Для посещения персональных тренировок студийная карта не нужна! Приобретайте только тренировки и не
+					переплачивайте!
+				</p>
+				<p class="price__content-text">
+					Стоимость зависит от категории тренера и от количества приобретенных тренировок. Чем больше количество
+					тренировок в пакете, тем дешевле стоимость за одну тренировку.
+				</p>
+				<p class="price__content-text">
+					На сайте указана стоимость пробных пакетов персональных тренировок. Под пробными подразумевается
+					возможность приобретения тренировки / пакета тренировок один раз.
+				</p>
+				<p class="price__content-text">
+					Больше информации узнавайте на рецепции.
+				</p>
+				<div class="price__content-carts">
+					<div class="price__content-cart cart">
+						<div class="cart__top">
+							<h4 class="cart__title">1 ПРОБНАЯ ТРЕНИРОВКА</h4>
+							<span class="cart__price cart__price--discount">550 грн
+								<span class="cart__price">275 грн</span>
+							</span>
+						</div>
+						<div class="cart__content">
+							<div class="cart__deck-discount">
+								<p class="cart__deck-discount--text">
+									Скидка при оплате на сайте!
+								</p>
+							</div>
+							<ul class="cart__list">
+								<li class="cart__item">
+									Пробная тренировка с персональным тренером. Продолжительность занятия — 1 час.
+								</li>
+							</ul>
+						</div>
+						<button class="price__btn" type="button">
+							Оставить заявку
+						</button>
+						<button class="price__btn-buy" type="button">
+							Оплатить онлайн
+						</button>
+					</div>
+					<div class="price__content-cart cart">
+						<div class="cart__top">
+							<h4 class="cart__title">5 ПЕРСОНАЛЬНЫХ ТРЕНИРОВОК</h4>
+							<span class="cart__price">2 250 грн</span>
+						</div>
+						<div class="cart__content">
+							<ul class="cart__list">
+								<li class="cart__item">
+									Срок действия пакета 3 месяца.
+								</li>
+								<li class="cart__item">
+									Продолжительность занятия — 1 час.
+								</li>
+							</ul>
+						</div>
+						<button class="price__btn" type="button">
+							Оставить заявку
+						</button>
+						<button class="price__btn-buy" type="button">
+							Оплатить онлайн
+						</button>
+					</div>
+					<div class="price__content-cart cart">
+						<div class="cart__top">
+							<h4 class="cart__title">10 ПЕРСОНАЛЬНЫХ ТРЕНИРОВОК</h4>
+							<span class="cart__price">4 500 грн</span>
+						</div>
+						<div class="cart__content">
+							<ul class="cart__list">
+								<li class="cart__item">
+									Срок действия пакета 6 месяцев.
+								</li>
+								<li class="cart__item">
+									Продолжительность занятия — 1 час.
+								</li>
+							</ul>
+						</div>
+						<button class="price__btn" type="button">
+							Оставить заявку
+						</button>
+						<button class="price__btn-buy" type="button">
+							Оплатить онлайн
+						</button>
+					</div>
+					<div class="price__content-cart cart">
+						<div class="cart__top">
+							<h4 class="cart__title">20 ПЕРСОНАЛЬНЫХ ТРЕНИРОВОК</h4>
+							<span class="cart__price">8 000 грн</span>
+						</div>
+						<div class="cart__content">
+							<ul class="cart__list">
+								<li class="cart__item">
+									Срок действия пакета 6 месяца.
+								</li>
+								<li class="cart__item">
+									Продолжительность занятия — 1 час.
+								</li>
+							</ul>
+						</div>
+						<button class="price__btn" type="button">
+							Оставить заявку
+						</button>
+						<button class="price__btn-buy" type="button">
+							Оплатить онлайн
+						</button>
+					</div>
+
+				</div>
+			</div>
+		</div>
+	</section>
+	<footer class="footer" id="footer">
+		<div class="footer__top" data-aos="fade-down" data-aos-delay="0" data-aos-duration="500">
+			<ul class="footer__top-list">
+				<li class="footer__top-item">
+					<a class="footer__top-link" href="#price">FAQ</a>
+				</li>
+				<li class="footer__top-item">
+					<a class="footer__top-link" href="#price">Акции</a>
+				</li>
+				<li class="footer__top-item">
+					<a class="footer__top-link" href="#hot-offers">Вакансии</a>
+				</li>
+				<li class="footer__top-item">
+					<a class="footer__top-link" href="#reviews">Блог</a>
+				</li>
+				<li class="footer__top-item">
+					<a class="footer__top-link" href="#reviews">Студии</a>
+				</li>
+				<li class="footer__top-item">
+					<a class="footer__top-link" href="#about">О нас</a>
+				</li>
+				<li class="footer__top-item">
+					<a class="footer__top-link" href="#reviews">Отзывы</a>
+				</li>
+			</ul>
+		</div>
+		<div class="footer__bottom">
+			<div class="footer__bottom-inner">
+				<div class="footer__bottom-item" data-aos="fade-down" data-aos-delay="300" data-aos-easing="linear"
+					data-aos-duration="400">
+					<a class="logo__link" href="#intro"><img class="logo__img" src="image/logo.svg" alt="Логотип"></a>
+					<p class="footer__bottom-payment">Copyright © Ready 2021</p>
+				</div>
+				<div class="footer__item" data-aos="fade-down" data-aos-delay="700" data-aos-easing="linear"
+					data-aos-duration="400">
+					<h3 class="footer__item-title">Услуги</h3>
+					<ul class="footer__item-list">
+						<li class="footer__item-item">
+							<a class="footer__item-link" href="#price">Тренировки</a>
+						</li>
+						<li class="footer__item-item">
+							<a class="footer__item-link" href="#price">Похудение</a>
+						</li>
+						<li class="footer__item-item">
+							<a class="footer__item-link" href="#price">TRX</a>
+						</li>
+						<li class="footer__item-item">
+							<a class="footer__item-link" href="#price">Персональный тренинг</a>
+						</li>
+						<li class="footer__item-item">
+							<a class="footer__item-link" href="#price">Корпоративным клиентам</a>
+						</li>
+					</ul>
+				</div>
+				<div class="footer__item" data-aos="fade-down" data-aos-delay="1100" data-aos-easing="linear"
+					data-aos-duration="400">
+					<h3 class="footer__item-title">Тренировки</h3>
+					<ul class="footer__item-list">
+						<li class="footer__item-item">
+							<a class="footer__item-link" href="#price">HIT</a>
+						</li>
+						<li class="footer__item-item">
+							<a class="footer__item-link" href="#price">Кардио</a>
+						</li>
+						<li class="footer__item-item">
+							<a class="footer__item-link" href="#price">Попа Класс</a>
+						</li>
+						<li class="footer__item-item">
+							<a class="footer__item-link" href="#price">Силовая</a>
+						</li>
+						<li class="footer__item-item">
+							<a class="footer__item-link" href="#price">YOGA</a>
+						</li>
+					</ul>
+				</div>
+				<div class="footer__item adress" data-aos="fade-down" data-aos-delay="1500" data-aos-easing="linear"
+					data-aos-duration="400">
+					<h3 class="footer__item-title">Адреса студий</h3>
+					<ul class="adress__inner">
+						<li class="adress__item">
+							<h4 class="adress__title">Печерськ</h4>
+							<p class="adress__text">ул. Коновалова. 1</p>
+						</li>
+						<li class="adress__item">
+							<h4 class="adress__title">Берестейская</h4>
+							<p class="adress__text">ул. Машиностроительная, 1</p>
+						</li>
+						<li class="adress__item">
+							<h4 class="adress__title">Теремки</h4>
+							<p class="adress__text">ул. Ак.Вильямса, 1</p>
+						</li>
+						<li class="adress__item">
+							<h4 class="adress__title">Левобережная</h4>
+							<p class="adress__text">ул. Сверстюка, 1</p>
+						</li>
+						<li class="adress__item">
+							<h4 class="adress__title">Подил</h4>
+							<p class="adress__text">ул. Верхний Вал, 1</p>
+						</li>
+						<li class="adress__item">
+							<h4 class="adress__title">Вокзальная</h4>
+							<p class="adress__text">ул. Набережная 1</p>
+						</li>
+						<li class="adress__item">
+							<h4 class="adress__title">Дворец "Україна"</h4>
+							<p class="adress__text">ул. Малевича, 1</p>
+						</li>
+						<li class="adress__item">
+							<h4 class="adress__title">Лукяновка</h4>
+							<p class="adress__text">ул. Стрельцова, 1</p>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="footer__copy" data-aos="fade-right" data-aos-anchor-placement="bottom-bottom" data-aos-easing="linear"
+			data-aos-delay="1800" data-aos-duration="400">
+			<ul class="footer__copy-list">
+				<li class="footer__copy-item">
+					<a class="footer__copy-link" href="#">
+						Правила студии
+					</a>
+				</li>
+				<li class="footer__copy-item">
+					<a class="footer__copy-link" href="#">
+						Политика конфиденциальности
+					</a>
+				</li>
+				<li class="footer__copy-item">
+					<a class="footer__copy-link" href="#">
+						Политика использования coockie файлов
+					</a>
+				</li>
+				<li class="footer__copy-item">
+					<a class="footer__copy-link" href="#">
+						Договор публичной оферты
+					</a>
+				</li>
+				<li class="footer__copy-item">
+					<a class="footer__copy-link" href="#">
+						Условие возврата средств
+					</a>
+				</li>
+			</ul>
+		</div>
+	</footer>
+
+
+
+
+
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="js/slick.min.js"></script>
+	<script src="js/aos.js"></script>
+	<script src="js/jquery.fancybox.min.js"></script>
+	<script src="js/style.js"></script>
+</body>
+
+</html>
